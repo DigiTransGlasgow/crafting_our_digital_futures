@@ -3,5 +3,7 @@ description: Leap Day is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 collections:
-        - contributions
+        - contributions:
+                output: true
+                permalink: /contributions/:path/
 theme:
