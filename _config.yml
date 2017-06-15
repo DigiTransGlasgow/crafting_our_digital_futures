@@ -5,5 +5,5 @@ google_analytics:
 collections:
         contributions:
                 output: true
-                permalink: /contributions/:path/
+                permalink: /contributions/:name/
 theme:
