@@ -1,6 +1,7 @@
 title: Leap Day theme
 description: Leap Day is a theme for GitHub Pages.
 show_downloads: true
+layout: default
 google_analytics:
 collections:
         contributions:
