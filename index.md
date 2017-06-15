@@ -3,5 +3,5 @@ layout: default
 ---
 
 {% for item in site.contributions %}
-<h2>{{ item.title }}</h2>
+<ul><li><a href="{{ item.url }}">{{ item.title }}</a></li></ul>
 {% endfor %}
