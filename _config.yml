@@ -4,6 +4,5 @@ show_downloads: true
 google_analytics:
 collections:
         - contributions:
-                output: true
                 permalink: /:name
 theme:
