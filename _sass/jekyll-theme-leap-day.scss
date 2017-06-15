@@ -286,7 +286,7 @@ small {
   font-size:12px;
 }
 
-nav {
+navg {
   width: 230px;
   position: fixed;
   top: 220px;
@@ -358,7 +358,7 @@ footer {
     margin:0;
   }
 
-  nav{
+  navg{
     display: none;
   }
 
@@ -501,7 +501,7 @@ footer {
 }
 
 @media print, screen and (max-height: 480px) {
-  nav {
+  navg {
     display: none;
   }
 
