@@ -39,11 +39,11 @@
 
     <div class="wrapper">
       <navg>
-              <div class="dropdown" style="border:1px height:150px solid black;overflow:auto" >
+              <div class="dropdown">
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Content
                       <span class="caret"></span>
               </button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" style="border:1px height:150px solid black;overflow:auto">
               {% for item in site.contributions %}
               <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
               {% endfor %}
