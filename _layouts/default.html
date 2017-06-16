@@ -42,11 +42,11 @@
         </navg>
       <section>
 
-        {% include nav_top.md %}
+        {% include nav_top.md | markdownify %}
 
         {{ content }}
 
-        {% include nav_bottom.md %}
+        {% include nav_bottom.md | markdownify %}
 
       </section>
       <footer>
