@@ -4,9 +4,11 @@
 <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">List
         <span class="caret"></span>
 </button>
+<ul class="dropdown-menu">
 {% for item in site.contributions %}
-<ul class="dropdown-menu"><li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li></ul>
+<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}
+</ul>
 </div>
 </div>
 <nav aria-label="...">
