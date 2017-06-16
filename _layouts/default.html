@@ -55,10 +55,13 @@
 
         {% if page.url contains "contributions" %}
         {% include nav_top.md %}
-        {% endif %}
         {{ content }}
-
         {% include nav_bottom.md %}
+        {% else %}
+        {{ content }}
+        {% endif %}
+
+
 
       </section>
       <footer>
