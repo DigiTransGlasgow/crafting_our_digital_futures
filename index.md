@@ -1,5 +1,5 @@
 ---
-layout: index_layout
+layout: default
 ---
 
 {% for item in site.contributions %}
