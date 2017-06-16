@@ -39,7 +39,7 @@
 
     <div class="wrapper">
       <navg>
-              <div class="dropdown">
+              <!-- <div class="dropdown">
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Content
                       <span class="caret"></span>
               </button>
@@ -48,12 +48,12 @@
               <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
               {% endfor %}
               </ul>
-              </div>
+              </div> -->
         </navg>
       <section>
 
         {% include nav_top.md %}
-
+        {{ url }} {{ path }}
         {{ content }}
 
         {% include nav_bottom.md %}
