@@ -1,16 +1,3 @@
-<div class="dropdown">
-
-<div class="container">
-<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">List
-        <span class="caret"></span>
-</button>
-<ul class="dropdown-menu">
-{% for item in site.contributions %}
-<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-</div>
-</div>
 <nav aria-label="...">
   <ul class="pager">
         {% if page.previous.url != nil %}
