@@ -52,8 +52,10 @@
         </navg>
       <section>
 
+
+        {% if page.url contains "contributions" %}
         {% include nav_top.md %}
-        {{ page.url }} {{ page.path }}
+        {% endif %}
         {{ content }}
 
         {% include nav_bottom.md %}
