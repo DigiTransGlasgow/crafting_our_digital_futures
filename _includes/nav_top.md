@@ -5,7 +5,7 @@
         <span class="caret"></span>
 </button>
 {% for item in site.contributions %}
-<ul><li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li></ul>
+<ul class="dropdown-menu"><li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li></ul>
 {% endfor %}
 </div>
 </div>
