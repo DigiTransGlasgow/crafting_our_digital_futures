@@ -6,4 +6,5 @@ google_analytics:
 collections:
         contributions:
                 output: true
+                permalink: /:collection/:path/
 theme:
