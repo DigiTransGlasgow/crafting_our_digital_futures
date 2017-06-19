@@ -15,7 +15,8 @@ First published in the United Kingdom in 2015. Published by Uniform Communicatio
 </div>
 <div class="panel-footer">
 
-<br />ISBN : 978-0-9576868-4-7 Printed in Great Britain.
+ISBN : 978-0-9576868-4-7
+<br />Printed in Great Britain.
 
 <br />Edited by
 <br />Irini Papadimitriou, Andrew Prescott and Jon Rogers
