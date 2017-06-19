@@ -13,3 +13,8 @@ html body div.wrapper section p {
 	max-width: 100%;
 
 }
+
+.banner {
+
+	background-image: "{{ '/assets/images/banner.png' | relative_url }}!important;
+}
