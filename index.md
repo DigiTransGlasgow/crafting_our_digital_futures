@@ -8,6 +8,8 @@ layout: default
 <ul><li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li></ul>
 {% endfor %}
 
+---
+
 <div class="panel panel-default">
 <div class="panel-body">
 First published in the United Kingdom in 2015. Published by Uniform Communications Ltd. © Uniform Communications Ltd, 2015.
