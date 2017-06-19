@@ -8,7 +8,7 @@ layout: default
 <ul><li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li></ul>
 {% endfor %}
 
----
+* * *
 
 <div class="panel panel-default">
 <div class="panel-body">
