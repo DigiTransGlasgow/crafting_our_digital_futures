@@ -17,11 +17,14 @@
   </head>
   <body>
 
-      <a href="{{ site.url }}">
-              <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-      </header>
+
+               <header>
+                        <div>
+                                <a href="{{ site.url }}">
+                                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                                <p>{{ site.description | default: site.github.project_tagline }}</p>
+                        </div>
+                </header>
       </a>
 
       <div id="banner">
