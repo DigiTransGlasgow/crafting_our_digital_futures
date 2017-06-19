@@ -1,4 +1,4 @@
----
+<br />
 
 <nav aria-label="...">
   <ul class="pager">
